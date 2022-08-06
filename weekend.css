@@ -1,0 +1,100 @@
+.body {
+    margin: 0%;
+}
+
+#background {
+    background-image: url(foodfood.jpeg);
+    background-color: #cccccc;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 0px;
+    border: 0px; 
+    
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.659);
+    width: 25vw;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#upperow {
+    display: flex;
+    order: 2;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    width: 80vw;
+    height: 5vh;
+    font-family: fantasy;
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.659);
+}
+
+.rowcolor {
+    background-color:rgb(23, 174, 156) ;
+}
+
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    height: 300px;
+    max-width: auto;
+    overflow-y: hidden;
+    overflow-x:auto;
+}
+    
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+}   
+   
+.menuimgs {
+    background-color: rgb(23, 174, 156);
+    padding: 0px;
+    margin: 0%;
+    border: 0px; 
+    height: 100%;
+}
+  
+#faq{
+    width: 100vw;
+    height: 100vh;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+#contact{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(23, 174, 156);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
